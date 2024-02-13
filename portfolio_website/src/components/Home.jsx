@@ -6,7 +6,7 @@ const Home = () => {
   return (
     <div>
       <div>
-        <h1>I am a Data Scientist</h1>
+        <h2>I am a Data Scientist</h2>
       </div>
     </div>
   );
