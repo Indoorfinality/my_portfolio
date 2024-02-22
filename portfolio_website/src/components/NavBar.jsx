@@ -43,7 +43,7 @@ const NavBar = () => {
         {links.map(({ id, link, link_name }) => (
           <li
             key={id}
-            className="px-4 cursor-pointer capitalize font-medium text-slate-400 hover:scale-105 duration-200"
+            className="px-4 cursor-pointer capitalize font-medium text-slate-300 hover:scale-105 duration-200"
           >
             <Link to={link} smooth duration={500}>
               {link_name}
@@ -54,13 +54,13 @@ const NavBar = () => {
 
       <div
         onClick={() => setNav(!nav)}
-        className="cursor-pointer pr-4 z-10 text-gray-500 md:hidden"
+        className="cursor-pointer pr-4 z-10 text-slate-300 md:hidden"
       >
         {nav ? <FaTimes size={30} /> : <FaBars size={30} />}
       </div>
 
       {nav && (
-        <ul className="flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg-gradient-to-b from-black to-green-800 text-gray-500">
+        <ul className="flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg-gradient-to-b from-black to-green-800 text-slate-300">
           {links.map(({ id, link_name, link }) => (
             <li
               key={id}
