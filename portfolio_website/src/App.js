@@ -1,4 +1,4 @@
-
+import {Routes, Route} from 'react-router-dom'
 import Home from "./components/Home";
 import NavBar from "./components/NavBar";
 import SocialLinks from "./components/SocialLinks";
@@ -16,7 +16,8 @@ function App() {
     <Portfolio/>
     <Experience />
     <Contact />
-    <SocialLinks />
+  <SocialLinks />
+    
     </div>
   );
 }

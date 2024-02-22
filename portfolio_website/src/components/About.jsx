@@ -14,21 +14,18 @@ const About = () => {
           </p>
         </div>
         <p className="text-xl mt-20">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita,
-          impedit animi, nisi quos, dicta odio provident sequi cupiditate vero
-          nemo commodi accusantium molestiae dolor? Placeat a dolores tenetur
-          quibusdam sequi et eos quam expedita quaerat optio numquam provident
-          velit ex, fugit est distinctio nobis. Repellat voluptatibus accusamus
-          quam obcaecati exercitationem.
+          I'm Anushna Chaulagain, currently pursuing a Bachelor of Science with
+          Honours in Computer and Data Science at Birmingham City University. I
+          am deeply passionate about the intersection of technology and data,
+          particularly in the realm of machine learning.
         </p>
         <br />
         <p className="text-xl">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime ullam
-          quae voluptatum atque magnam, rerum aliquid tempore iusto doloribus
-          nulla nesciunt aspernatur impedit harum temporibus libero consequuntur
-          repellat tempora repellendus dignissimos, deserunt ab aperiam eum
-          minus? Aut quaerat natus consequatur, vel eligendi dignissimos id
-          officia, quisquam obcaecati quo voluptatibus! Nam?
+          One of my primary areas of interest lies in machine learning. I am
+          fascinated by its ability to enable computers to learn from data and
+          make decisions without being explicitly programmed. Exploring
+          algorithms, techniques, and applications within machine learning is a
+          journey I find incredibly rewarding and intellectually stimulating.
         </p>
       </div>
     </div>
